@@ -43,7 +43,6 @@ jobs:
 
     - name: Run tests
       run: |
-          pip install pytest
-          python -m pytest
-          python -m pytest -s
+         pip install pytest
+         python -m pytest -s
           
